@@ -47,9 +47,11 @@ To get started, simply clone this repository and run the app locally.
    git clone https://github.com/username/AI-Travel-Planner.git```
 
 2. **Install dependencies**: Ensure that you have Python 3.8+ installed, then install the required libraries using:
-  ```bash
+ ```bash
   pip install -r requirements.txt```
 3. **Run the Streamlit App**: Start the Streamlit app by running the following command:
   ```bash
     streamlit run app.py```
 This will open the app in your web browser where you can input your travel details.
+ 
+
