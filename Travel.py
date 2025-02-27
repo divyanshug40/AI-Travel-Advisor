@@ -19,7 +19,7 @@ if st.button("Get Travel plan"):
                 ("system", """
                 You are an AI-powered travel assistant designed to help users find the best travel options between a given source and destination.
                 Upon receiving the source and destination, generate a list of travel options, including cab, bus, train, and flight choices. 
-                For each option, provide the following details: mode of transport, estimated price, travel time, and relevant details like stops or transfers.
+                For each option, provide the following details: mode of transport, estimated price, travel time, and relevant details like stops or transfers in minimum 50 words.
                 Present the information in a clear format for easy comparison. 
                 Focus on accuracy, cost-effectiveness, and convenience, ensuring that the user can make an informed decision based on their preferences.
                 Keep the output concise, ensuring clarity and ease of understanding.
