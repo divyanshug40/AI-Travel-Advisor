@@ -49,6 +49,7 @@ To get started, simply clone this repository and run the app locally.
 2. **Install dependencies**: Ensure that you have Python 3.8+ installed, then install the required libraries using:
  ```bash
   pip install -r requirements.txt```
+
 3. **Run the Streamlit App**: Start the Streamlit app by running the following command:
   ```bash
     streamlit run app.py```
