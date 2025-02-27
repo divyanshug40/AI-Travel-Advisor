@@ -2,8 +2,6 @@ import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
-from dotenv import load_dotenv
-load_dotenv()
 import os
 
 GOOGLE_API_KEY = os.getenv("api_key")
