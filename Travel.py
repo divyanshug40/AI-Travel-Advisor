@@ -3,8 +3,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
 
-st.set_page_config(page_title="AI-Powered Travel Planner",layout="centered",page_icon="✈️")
-st.title("  AI-Powered Travel Planner")
+st.set_page_config(page_title="AI-Travel Planner",layout="centered",page_icon="✈️")
+st.title("  AI-Travel Planner")
 st.write("Enter details to get estimated travel costs for various travel modes(including cab, train, bus, and flights).")
 
 
