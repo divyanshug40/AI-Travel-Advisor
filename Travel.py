@@ -24,7 +24,7 @@ if st.button("Get Travel plan"):
                 Focus on accuracy, cost-effectiveness, and convenience, ensuring that the user can make an informed decision based on their preferences.
                 Keep the output concise, ensuring clarity and ease of understanding.
                 Do not include and ouput in tablar format, keep all output as strings. 
-                Recommend best possible travel mode at the end.
+                Recommend best possible travel mode and best time to travel at the end.
                 """),
                 ("human", "Find travel options from {source} to {destination} along with estimated costs.")
             ])
