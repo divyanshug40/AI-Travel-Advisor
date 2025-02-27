@@ -44,7 +44,8 @@ To get started, simply clone this repository and run the app locally.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/AI-Travel-Planner.git```
+   git clone https://github.com/username/AI-Travel-Planner.git
+   ```
 
 2. **Install dependencies**: Ensure that you have Python 3.8+ installed, then install the required libraries using:
  ```bash
