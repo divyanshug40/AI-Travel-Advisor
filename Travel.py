@@ -2,6 +2,14 @@ import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # take environment variables
+
+google_api_key = os.getenv("api_key")
+if not google_api_key:
+    st.error("API key is missing. Please set the 'api_key' in your .env file.")
 
 st.set_page_config(page_title="AI-Travel Planner",layout="centered",page_icon="✈️")
 st.title("  AI-Travel Planner")
@@ -29,7 +37,7 @@ if st.button("Get Travel plan"):
                 ("human", "Find travel options from {source} to {destination} along with estimated costs.")
             ])
             
-            chat_model = ChatGoogleGenerativeAI(api_key="AIzaSyB878TajR7UN2Lc_S4CJP3mJsw4FZVJXf8", model="gemini-2.0-flash-exp")
+            chat_model = ChatGoogleGenerativeAI(api_key=google_api_key, model="gemini-2.0-flash-exp")
             parser = StrOutputParser()
             
             
